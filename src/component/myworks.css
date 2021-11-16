@@ -27,6 +27,13 @@
     overflow: scroll;
     max-height: 100%;
 }
+::-webkit-scrollbar{
+    /* background: black; */
+    border-radius: 10px 10px 10px 10px;
+    /* display: none; */
+    width: 0.4em;
+    display: none;
+}
 
 .iamimage{
     width: 100%;

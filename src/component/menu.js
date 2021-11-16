@@ -26,11 +26,14 @@ const Menu = () => {
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
 
 
-                
+
+                <div className="fancyPic">
+                  <img className='fancyPicImg' src="./allImage/coding-image.jpg" alt="image" />
+                </div>
             </div>
             <Footer />
 
