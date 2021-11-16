@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.myworksContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid blue; */
+    /* overflow: scroll; */
+    flex-direction: row;
+    height: 88vh;
+    z-index: -1;
+}
+.picContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    /* border: 2px solid; */
+    flex-wrap: wrap;
+    /* height: auto; */
+    /* width: 100vw; */
+    padding: 0em 0em;
+    overflow: scroll;
+    max-height: 100%;
+}
+
+.iamimage{
+    width: 100%;
+}
+.picContainer1{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25em;
+    height: auto;
+    overflow: hidden;
+    flex-basis: auto;
+    margin: 0.1em 0.3em;
+    /* transform: translateY(215px); */
+    z-index: -1;
+}
