@@ -1,0 +1,79 @@
+.mother{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid rgb(231, 5, 5); */
+    height: 100vh;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    /* width: 100vw; */
+    overflow: scroll;
+}
+.first-mother{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin-bottom: 1em;
+    /* border-bottom: 1px solid rgb(139, 139, 139); */
+    bottom: 0;
+}
+
+.first-mother-parent{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.first-mother-parent-child{
+    /* border: 2px solid green; */
+    background: white;
+    box-shadow: 3px 13px 19px 0px white;
+    width: 12em;
+    height: 16em;
+    overflow: hidden;
+    border-radius: 12px 12px 12px 12px;
+    margin: 0em 0.3em;
+    padding: 0em 0.3em;
+}
+.pictureEL{
+    width: 100%;
+    height: 8em;
+    /* border: 2px solid blue; */
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.356);
+    overflow: hidden;
+    position: relative;
+}
+.nafisImg{
+    position: absolute;
+    width: 100%;
+    top: -2em;
+}
+.second-mother{
+    padding: 1em 2em;
+    word-break: break-all;
+    margin-top: 1em;
+    color: rgb(241, 241, 241);
+    font-weight: 200;
+    position: relative;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* padding: 1em 0em; */
+}
+.second-mother::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    outline: 1px solid rgba(224, 224, 224, 0.404);
+    left: 0;
+    top: 0;
+    
+
+}

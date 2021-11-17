@@ -13,7 +13,7 @@ const Menu = () => {
                         <div className="links">
                             {/* <button className="btn">Contact me</button> */}
                             <button className="btn"><Link className='LinkBtn' to='/experience'>experience</Link></button>
-                            <button className="btn">Future Goal</button>
+                            <button className="btn"><Link className='LinkBtn' to='/futureGoal'>Future-Goal</Link></button>
                             <button className="btn"><Link className="LinkBtn" to='/works'>My-Works</Link></button>
                         </div>
                         <div className="socialMedia">
